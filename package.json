@@ -1,10 +1,13 @@
 {
-  "name": "@siddharth23/cypress-postgres",
-  "version": "1.0.2",
-  "description": "Query postgres db via Cypress",
+  "name": "cypress-postgres-10v-compatibility",
+  "version": "1.0.0",
+  "description": "@siddharth23/cypress-postgres updated to use with Cypress 10.x.x. after migration",
   "main": "cypress/plugins/index.js",
-  "repository": "https://github.com/siddharth23/cypress-postgres.git",
-  "author": "Siddharth Kala <siddharth.kala1989@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikitayavich/cypress-postgres.git"
+  },
+  "author": "nikitayavich(nikitayavich@gmail.com)",
   "keywords": [
     "cypress",
     "cypress plugin",
@@ -12,7 +15,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "cypress": "4.12.1",
+    "cypress": "10.0.0",
     "cypress-wait-until": "1.7.1",
     "cz-conventional-changelog": "3.2.0",
     "start-server-and-test": "1.11.2"
@@ -30,8 +33,5 @@
   },
   "dependencies": {
     "pg-promise": "10.5.8"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   }
 }

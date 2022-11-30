@@ -1,13 +1,11 @@
-# Cypress POSTGRES
+# cypress-postgres-10v-compatibility
 
-Test sql query to your postgres database in cypress tests
-
-Use this plugin to query postgres database and use response in cypress tests
+Updates the cypress-postgres module to be compatible with Cypress 10.x.x+ versions after migration from 9.x.x versions
 
 # Installation
 * Run below command in terminal to install the cypress postgres
 ```bash
-npm i -D cypress-postgres
+npm i -D cypress-postgres-10v-compatibility
 
 ```
 * Open your `cypress/plugins/index.js` file and register a new task
